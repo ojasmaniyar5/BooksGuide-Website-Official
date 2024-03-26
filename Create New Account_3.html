@@ -1,0 +1,64 @@
+<!-- create new account -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create Account</title>
+		<style>
+			button { 
+                background-color: #4CAF50; 
+       			width: 50%;
+		        color: black; 
+		        padding: 10px; 
+		        margin: 10px 0px; 
+		        border: none; 
+		        cursor: pointer; 
+		       } 
+			body  {
+			   .container 
+		        padding: 25px; 
+		        background-color: lightcyan;
+		      } 
+		    .btn1 {
+		    	background-color: transparent;
+		    }  
+		</style>
+</head>
+<body bgcolor="lightblue">
+	<form align="center" action="save1.php" method="POST">
+		<header>
+			<div class="container">
+				<h1><center><font face="Calisto MT">Create New Account</h1></center>
+		</header>
+	<hr>
+	<br><br><br>
+	<main>
+		<label>Enter Name :</label>
+			<input type="text" placeholder="Enter Name" name="name" maxlength="25" required>
+	<br><br><br>
+		<label>Enter E-mail ID :</label>
+	 		<input type="text" placeholder="Enter E-mail" name="mail"  required>
+	<br><br><br>
+		<label>Enter Username :</label>
+	 		<input type="text" placeholder="Enter Username" name="Username" required>
+	<br><br><br>
+		<label>Enter Password :</label>
+	 		<input type="Password" placeholder="Enter Password" name="Password" minlength="4" maxlength="8" required>
+	<br><br><br>
+		<label>Enter Confirm Passward :</label>
+	 		<input type="Password" placeholder="Enter Confirm Passward" name="Confirmpassword" minlength="4" maxlength="8" required>
+	<br><br><br>
+		
+	<br>
+	</main>
+		<footer>
+			<button type="submit"><center>Create Account</center></button>
+		<button type="submit"><center>Clear All</center></button>
+		 <center><a href="index.html"><input type="button" class="btn1" name="b1" value="Back To Home"></a></center>
+
+		</footer>
+			</div>
+	</form>
+</body>
+</html>
